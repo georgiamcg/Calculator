@@ -40,14 +40,22 @@ int plus(int num1, int num2)
 {
   /* local variable decleration*/
   int result;
+  char plus = +;
+  char minus = -;
+  char multiply = *;
+  char divide = /;
 
-  if(num1 + num2 = 300)
+  printf("Enter a Calculation :");
+  scanf("%c", plus, minus, multiply, divide); 
+  printf( "\nAnswer: %d", result);
+
+  if(+)
   result = num1+num2;
-  else if (num2 - num1 = 100)
+  else if (-)
   result = num2-num1;
-  else if (num1 * num2 = 200)
+  else if (*)
   result = num1*num2;
-  else (num2 / num1 = 2)
+  else (/)
   result = num2/num1;
 
   return result;
