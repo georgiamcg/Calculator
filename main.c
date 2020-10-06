@@ -1,33 +1,54 @@
 #include <stdio.h>
 
-// function decleration
-int PLUS(int num1, int num2, int num3,int num4, int num5, int num6, int num7, int num8, int num9);
-
-int MINUS(int num1, int num2, int num3,int num4, int num5, int num6, int num7, int num8, int num9);
-
-int MULTIPLY(int num1, int num2, int num3,int num4, int num5, int num6, int num7, int num8, int num9);
-
-float DIVIDE(int num1, int num2, int num3,int num4, int num5, int num6, int num7, int num8, int num9);
+/* function declaration */
+int plus(int num1, int num2);
+int minus(int num1, int num2);
+int multiply(int num1, int num2);
+int divide(int num1, int num2);
 
 int main(void) {
+  
+  /* local variable definition*/
+  int a = 100;
+  int b = 200;
 
+  int ret;
 
-  int i; 
-  int num1=1; int num2=2; int num3=3; int num4=4; int num5=5; int num6=6; int num7=7; int num8=8; int num9=9;
-
- if {
-   PLUS(1+2);}
- else if {
-   MINUS(2-1)}
- else if {
-   MULTIPLY(2*1);}
- else {
-   DIVIDE(3/1);}
-
-  printf("Enter a Calculation :");
-  scanf("%d", &i); 
-  printf( "\nAnswer: %d", i); 
+  /* calling a function to choose calculation*/
+  if ret = plus(a, b)
+  {
+  printf("A + B = %d\n", ret);
+  }
+  else if ret = minus(a, b)
+  {
+    printf("A - B = %d\n", ret);
+  }
+  else if ret = multiply(a, b)
+  {
+    printf("A * B = %d\n", ret);
+  }
+  else ret = divide(a, b)
+  {
+    printf("A / B = %3.2f\n", ret;)
+  }
 
 
   return 0;
+}
+/* function returning the calculation */
+int plus(int num1, int num2)
+{
+  /* local variable decleration*/
+  int result;
+
+  if(num1 + num2 = 300)
+  result = num1+num2;
+  else if (num2 - num1 = 100)
+  result = num2-num1;
+  else if (num1 * num2 = 200)
+  result = num1*num2;
+  else (num2 / num1 = 2)
+  result = num2/num1;
+
+  return result;
 }
