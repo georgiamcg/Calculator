@@ -2,9 +2,9 @@
 
 /* function declaration */
 int plus(int num1, int num2);
-int minus(int num1, int num2);
-int multiply(int num1, int num2);
-int divide(int num1, int num2);
+int minus(int num3, int num4);
+int multiply(int num5, int num6);
+int divide(int num7, int num8);
 
 int main(void) {
   
@@ -29,7 +29,7 @@ int main(void) {
   }
   else ret = divide(a, b)
   {
-    printf("A / B = %3.2f\n", ret;)
+    printf("A / B = %d\n", ret;)
   }
 
 
@@ -40,23 +40,22 @@ int plus(int num1, int num2)
 {
   /* local variable decleration*/
   int result;
-  char plus = +;
-  char minus = -;
-  char multiply = *;
-  char divide = /;
 
-  printf("Enter a Calculation :");
-  scanf("%c", plus, minus, multiply, divide); 
+  printf("Enter an addition :");
+  scanf("%d", plus); 
   printf( "\nAnswer: %d", result);
+ 
+  printf("Enter a subtraction :");
+  scanf("%d", minus);
+  printf("\nAnswer: %d", result);
 
-  if(+)
-  result = num1+num2;
-  else if (-)
-  result = num2-num1;
-  else if (*)
-  result = num1*num2;
-  else (/)
-  result = num2/num1;
+  printf("enter a multiplication :");
+  scanf("%d", multiply);
+  printf("\n Answer: %d", result);
+
+  printf("Enter a division :");
+  scanf("%d", divide);
+  printf("\n Answer: %d",result);
 
   return result;
 }
