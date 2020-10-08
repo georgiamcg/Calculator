@@ -8,30 +8,37 @@ int divide(int num7, int num8);
 
 int main(void) {
   
-  /* local variable definition*/
-  int a = 100;
-  int b = 200;
+#include <stdio.h>
 
-  int ret;
+/* function declaration */
+int plus(int num1, int num2);
+int minus(int num3, int num4);
+int multiply(int num5, int num6);
+int divide(int num7, int num8);
 
-  /* calling a function to choose calculation*/
-  if ret = plus(a, b)
-  {
-  printf("A + B = %d\n", ret);
-  }
-  else if ret = minus(a, b)
-  {
-    printf("A - B = %d\n", ret);
-  }
-  else if ret = multiply(a, b)
-  {
-    printf("A * B = %d\n", ret);
-  }
-  else ret = divide(a, b)
-  {
-    printf("A / B = %d\n", ret;)
-  }
+int main(void) {
+ // local vaiable definition
+  int a = 10;
+  int b = 20;
+  int c = 40;
+  int d = 30;
+  int e = 5;
+  int f = 6;
+  int g = 70;
+  int h = 35;
 
+  int ADD; int TAKE; int TIMES; int SHARED;
+
+  ADD = plus(a, b);
+  TAKE = minus(c, d);
+  TIMES = multiply(e, f);
+  SHARED = divide(g, h);
+ 
+ // calling funtion
+  if {ADD = plus(a, b)
+    printf("10 + 20 = %d\n", ADD);
+  }
+  
 
   return 0;
 }
@@ -39,11 +46,11 @@ int main(void) {
 int plus(int num1, int num2)
 {
   /* local variable decleration*/
-  int result;
+  int ADD;
 
   printf("Enter an addition :");
   scanf("%d", plus); 
-  printf( "\nAnswer: %d", result);
+  printf( "\nAnswer: %d", ADD);
  
   printf("Enter a subtraction :");
   scanf("%d", minus);
