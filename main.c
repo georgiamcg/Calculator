@@ -6,15 +6,6 @@ int minus(int num3, int num4);
 int multiply(int num5, int num6);
 int divide(int num7, int num8);
 
-int main(void) {
-  
-#include <stdio.h>
-
-/* function declaration */
-int plus(int num1, int num2);
-int minus(int num3, int num4);
-int multiply(int num5, int num6);
-int divide(int num7, int num8);
 
 int main(void) {
  // local vaiable definition
@@ -35,10 +26,23 @@ int main(void) {
   SHARED = divide(g, h);
  
  // calling funtion
-  if {ADD = plus(a, b)
-    printf("10 + 20 = %d\n", ADD);
-  }
   
+  printf("Enter an addition :");
+  scanf("%d", plus); 
+  printf( "\nAnswer: %d", ADD);
+ 
+  printf("Enter a subtraction :");
+  scanf("%d", minus);
+  printf("\nAnswer: %d", TAKE);
+
+  printf("enter a multiplication :");
+  scanf("%d", multiply);
+  printf("\n Answer: %d", TIMES);
+
+  printf("Enter a division :");
+  scanf("%d", divide);
+  printf("\n Answer: %d", SHARED);
+
 
   return 0;
 }
@@ -48,21 +52,6 @@ int plus(int num1, int num2)
   /* local variable decleration*/
   int ADD;
 
-  printf("Enter an addition :");
-  scanf("%d", plus); 
-  printf( "\nAnswer: %d", ADD);
- 
-  printf("Enter a subtraction :");
-  scanf("%d", minus);
-  printf("\nAnswer: %d", result);
-
-  printf("enter a multiplication :");
-  scanf("%d", multiply);
-  printf("\n Answer: %d", result);
-
-  printf("Enter a division :");
-  scanf("%d", divide);
-  printf("\n Answer: %d",result);
-
+  
   return result;
 }
